@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-lzwk
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rsoaresd_org/happy-path-with-depl-tenant/appstudio/dc-metro-map-lzwk@sha256:e75acfe5a11c1471691aa57f5354565ed0ad4f574ef4e23f3255e273a190a418
+        name: my-nodejs
+        resources: {}
+status: {}
